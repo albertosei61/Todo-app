@@ -1,0 +1,2 @@
+Check app functionality
+Deploy app
