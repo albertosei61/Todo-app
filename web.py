@@ -13,8 +13,6 @@ st.subheader("This is my Todo App.")
 st.write("This app is to increase your productivity")
 
 for index,  todo in enumerate(todos):
-    print(index)
-    print(todo)
     checkbox = st.checkbox(todo, key=todo)
     if checkbox:
         todos.pop(index)
